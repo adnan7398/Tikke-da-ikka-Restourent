@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-red: #8B0000;
+  --light-red: #C41E3A;
+  --dark-red: #4A0000;
+  --primary-black: #000000;
+  --primary-white: #FFFFFF;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Extra utility classes */
+.text-shadow {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
